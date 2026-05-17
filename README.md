@@ -35,6 +35,26 @@ $$
 
 Full details and results are documented in [Project 2](project/Project%202.pdf).
 
+## Results Preview
+
+### Single Breather
+
+The single breather remains localised in space while oscillating in time.
+
+![Single breather simulation](plots/pseudospectral1.png)
+
+### Head-On Breather Collision
+
+The two breathers propagate towards one another, collide near the centre of the spatial domain, and then move away from one another approximately symmetrically.
+
+![Head-on breather collision for d = 35](plots/breather35.png)
+
+### Collision Amplitude Comparison
+
+The maximum collision amplitude is largest when the breathers are initially superimposed. As the half-separation distance increases, the collision amplitude decreases and then stabilises.
+
+![Maximum collision amplitude against half-separation distance](plots/collisionamplitudeplot.png)
+
 ## Attribution
 
 The problem was provided as coursework in:
